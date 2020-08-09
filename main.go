@@ -4,6 +4,10 @@
 */
 package main
 
+import (
+	cron "gocron/PPGo_Job-master/crons"
+)
 func main() {
 	println("dfasdfasd")
+	cron.New(cron.WithSeconds())
 }

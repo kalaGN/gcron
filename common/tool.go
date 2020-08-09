@@ -4,14 +4,15 @@ import (
 	"database/sql"
 	"encoding/json"
 	"fmt"
-	"github.com/garyburd/redigo/redis"
-	"github.com/go-ini/ini"
-	_ "github.com/go-sql-driver/mysql"
 	"io/ioutil"
 	"net/http"
 	"os"
 	"os/exec"
 	"path/filepath"
+
+	"github.com/garyburd/redigo/redis"
+	"github.com/go-ini/ini"
+	_ "github.com/go-sql-driver/mysql"
 )
 
 /**
